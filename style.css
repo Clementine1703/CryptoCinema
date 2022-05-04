@@ -406,3 +406,104 @@ a{
 	margin-left: 60rem;
 	z-index: 10;
 }
+
+/*   ?crafts   */
+
+#crafts{
+	width: 100%;
+	height: 1000rem;
+	background-color: black;
+	padding-top: 50rem;
+}
+
+#crafts .container{
+	position: relative;
+	margin: 0 auto;
+	width: 1500rem;
+	height: 894rem;
+	background: url('images/scheme.jpg') center/cover no-repeat;
+}
+
+
+
+/*   ! crafts-scheme   */
+
+.scheme-el{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	background-color: #BF0409;
+	cursor: pointer;
+	color: white;
+}
+
+.scheme-el:hover{
+	background-color: #29A1D4;
+}
+
+.top-square{
+	top: 44rem;
+	width: 200rem;
+	height: 200rem;
+	font-size: 15rem;
+	text-align: center;
+}
+
+.el-1{left: 157rem;}
+.el-2{left: 375rem;}
+.el-3{left: 660rem;}
+.el-4{left: 935rem;}
+.el-5{left: 1150rem;}
+
+.el-6{top: 287rem;
+		left: 200rem;
+		width: 150rem;
+		height: 50rem;
+		border-radius: 15rem;
+		font-size: 15rem;
+}
+.el-7{
+
+		top: 380rem;
+		left: 150rem;
+		width: 235rem;
+		height: 130rem;
+		border-radius: 20rem;
+		font-size: 25rem;
+}
+.el-8{
+	top: 295rem;
+	left: 630rem;
+	width: 65rem;
+	height: 65rem;
+	transform: rotate(45deg);
+	font-size: 15rem;}
+
+.el-8 p{
+		transform: rotate(-45deg);
+		}
+
+.el-9{
+	top: 440rem;
+	left: 576rem;
+	width: 176rem;
+	height: 170rem;
+	font-size: 15rem;}
+
+.el-10{}
+
+.el-11{
+	top: 435rem;
+	left: 978rem;
+	width: 147rem;
+	height: 93rem;
+	border-radius: 20rem;
+	font-size: 13rem;
+
+}
+
+
+.el-12{}
+.el-13{}
+.el-14{}
