@@ -13,6 +13,7 @@ html{
 body{
 		width: 100%;
 		height: 100%;
+		font-family: 'Montserrat', sans-serif;
 	}
 
 a{
@@ -160,16 +161,16 @@ a{
 #studios .container .slider{
 	min-width: 0;
 	position: relative;
-	top: 240rem;
-	left: 400rem;
-	width: 900rem;
-	height: 300rem;
+	top: 200rem;
+	left: 370rem;
+	width: 1050rem;
+	height: 350rem;
 	
 }
 
 #studios .container .slider .slider__item img{
-	width: 270rem;
-	height: 270rem;
+	width: 330rem;
+	height: 330rem;
 }
 
 .slick-list{
@@ -178,6 +179,7 @@ a{
 
 .slick-track{
 	display: flex;
+	justify-content: space-around;
 }
 
 
@@ -185,12 +187,23 @@ a{
 
 #studios .container .slider .slider__item{
 	position: relative;
-	width: 270rem;
-	height: 270rem;
+	width: 330rem;
+	height: 330rem;
 	cursor: pointer;
+	
+}
+
+.slick-active{
+	transition: all 1s ease 0s;
 }
 
 #studios .container .slider .slick-slide:not(.slick-current){
-	opacity: 0.1;
+	opacity: 0.3;
+	transform: scale(0.8);
+}
+
+#studios .container .slider .slick-slide.slick-current + div{
+	opacity: 0.6;
+	transform: scale(0.9);
 }
 
